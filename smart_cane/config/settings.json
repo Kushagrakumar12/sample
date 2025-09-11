@@ -1,0 +1,45 @@
+{
+    "user_preferences": {
+        "volume_level": 0.8,
+        "speech_rate": 180,
+        "alert_distance": 2.0,
+        "alert_types": ["audio", "voice"],
+        "voice_gender": "female",
+        "language": "en"
+    },
+    "detection_settings": {
+        "confidence_threshold": 0.5,
+        "detection_classes": [
+            "person", "bicycle", "car", "motorcycle", "bus", "truck",
+            "traffic light", "stop sign", "bench", "fire hydrant",
+            "stairs", "pothole", "overhead_obstacle"
+        ],
+        "alert_distances": {
+            "person": 1.5,
+            "vehicle": 3.0,
+            "stairs": 1.0,
+            "pothole": 0.8,
+            "overhead_obstacle": 1.2
+        }
+    },
+    "navigation_settings": {
+        "walking_speed": 1.4,
+        "route_update_interval": 5.0,
+        "turn_announcement_distance": 10.0,
+        "indoor_mode": false
+    },
+    "gui_settings": {
+        "window_width": 1200,
+        "window_height": 800,
+        "theme": "light",
+        "font_size": 14,
+        "accessibility_mode": true
+    },
+    "emergency_settings": {
+        "emergency_contacts": [
+            {"name": "Emergency Services", "number": "911"},
+            {"name": "Family Contact", "number": "+1234567890"}
+        ],
+        "auto_alert_timeout": 30.0
+    }
+}

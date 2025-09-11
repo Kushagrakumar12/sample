@@ -1,0 +1,15 @@
+{
+    "google_maps": {
+        "api_key": "YOUR_GOOGLE_MAPS_API_KEY_HERE",
+        "note": "Replace with actual Google Maps API key for production use"
+    },
+    "azure_speech": {
+        "subscription_key": "YOUR_AZURE_SPEECH_KEY_HERE",
+        "region": "YOUR_AZURE_REGION_HERE",
+        "note": "Optional: Azure Speech Services for enhanced TTS"
+    },
+    "simulation_mode": {
+        "use_mock_apis": true,
+        "note": "Set to false when using real API keys"
+    }
+}
